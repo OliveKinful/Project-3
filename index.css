@@ -43,8 +43,9 @@ nav ul li{
     text-decoration: none;
     color: black;
 }
-.image{
+.image1{
     width: 100%;
+    hi
 }
 .image wallpaper{
     max-width: 100%;
@@ -129,3 +130,60 @@ span{
     height: 200px;
     background-color: whitesmoke;
 }
+#notify{
+    color: steelblue;
+}
+.flex-container2{
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: whitesmoke; */
+}
+.flex-container2 > div{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.flex-container2 .One{
+    border: 1px solid green;
+    padding: 20px;
+    width: 500px;
+    height: 700px;
+    background-color: whitesmoke;
+    text-align: left;
+    margin: 10px 15px;
+}
+.flex-container2 .one, p{
+    color: grey;
+}
+.image2{
+    height: 700px;
+    width: 500px;
+    /* float: left; */
+    /* display: flex; */
+    margin-top: -600px;
+    margin-right: -650px;
+    margin-bottom: 0;
+    margin-left: 850px;
+}
+/* .flex-container2 .two{
+    border: 1px solid green;
+    padding: 20px;
+    /* width: 1000px; */
+    /* height: 200px;
+    background-color: whitesmoke; 
+} */ */
+/* .flex-container2 .two{
+    height: 700px;
+    border: 1px solid green;
+    padding: 10px;
+    width: 500px;
+    height: 700px;
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+} */
+/* h3{
+    display: flex;
+} */
