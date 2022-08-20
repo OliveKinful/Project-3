@@ -36,6 +36,7 @@ nav ul li{
 }
 .logo{
     height: 100px;
+    width: 100px;
 }
 .article{
     text-align: center;
@@ -53,6 +54,9 @@ nav ul li{
     border: 1px solid green;
 
 }
+.article,p{
+    
+}
 span{
     /* padding-top: 20px; */
 }
@@ -68,28 +72,7 @@ span{
     text-decoration: none;
     color: black;
 }
-.image1{
-    width: 100%;
-}
-.image1 {
-    /* max-width: 100%;
-    display: block;
-    width: 100%; */
-    /* height: 50%; */
-} 
-.image p{
-    /* border: 2px solid red; */
-    /* text-align: center;
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    width: 600px;
-    margin: auto;
-    height: 200px;
-    margin-left: 500px;
-    margin-top: 400px;
-    font-size: 48px; */
-}
+
 
 .section{
     max-width: 100%;
@@ -112,6 +95,7 @@ span{
 .flex-container{
     display: flex;
     flex-wrap: nowrap;
+    border: 3px solid black;
     /* background-color: whitesmoke; */
 }
 .flex-container > div{
@@ -138,29 +122,76 @@ span{
 .flex-container2{
     display: flex;
     flex-wrap: nowrap;
-    /* background-color: whitesmoke; */
+    background-color: whitesmoke;
+    border: 2px dotted blueviolet;
+    /* width: 100%; */
+    /* margin: 10px 10px; */
 }
 .flex-container2 > div{
     width: 100%;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     font-size: 16px;
     line-height: 1.5em;
+    /* border: 2px dashed black; */
+    padding: 10px;
 }
 .flex-container2 .two{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 20px;
-    width: 500px;
-    height: 700px;
-    background-color: whitesmoke;
+    width: 1500px;
+    height: 800px;
+    /* background-color: whitesmoke; */
     text-align: left;
     margin: 10px 15px;
 }
+
+.two1, h3{
+    text-align: center;
+    /* margin: 100px; */
+    /* padding-left: 200px;background-color: whitesmoke; */
+}
 .image2{
-    height: 700px;
+    height: 600px;
     width: 500px;
-    margin-top: -600px;
-    margin-right: -650px;
-    margin-bottom: 0;
-    margin-left: 850px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 500px;
+}
+.two1{
+
+}
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    /* text-decoration: none;   */
+    list-style-type: none;
+}
+.footer >div{
+    text-decoration: none;
+    padding-left: 10px;
+    border: 1px dotted black;
+
+}
+.footer-container2{
+    border: 1px dashed black;
+    padding-right: 100px;
+
+}
+
+.icons{
+    padding: 0.2rem;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px;
+    color: aliceblue;
+    /* color: black; */
+}
+.copyright{
+    font-size: 20px;
+    margin-top: 8px;
 }
