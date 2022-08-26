@@ -11,6 +11,8 @@ body{
 }
 header{
     display: flex;
+    width: 300px;
+    /* border: 1px solid red; */
 }
 h1{
     font-size: 32px;
@@ -36,14 +38,14 @@ nav ul li{
     display: inline-block;
     text-align: center;
     font-size: 16px;
-    padding: 15px;
+    padding: 10px;
     /* background-origin: padding-box; */
     /* border: 1px solid red; */
     margin-top: 70px;
     /* float: left; */
 }
 .logo{
-    height: 180px;
+    height: auto;
     width: 100px;
     /* color: black; */
 }
@@ -67,6 +69,12 @@ nav ul li{
     /* border: 1px solid red; */
     margin-top: 150px;
     font-size: 36px;
+}
+span{
+    border: 1px solid rebeccapurple;
+    padding: 10px 80px;
+    border-radius: 20px;
+    margin-left: 450px;
 }
 .specific{
     color: gray;
@@ -102,7 +110,6 @@ nav ul li{
     font-size: 16px;
     text-align: center;
 }
-
 
 .flex-container{
     display: flex;
